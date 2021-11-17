@@ -32,6 +32,14 @@ Design:
 ![SnakeLadder](https://user-images.githubusercontent.com/24969715/142224616-51f470d4-faeb-4c56-9f51-214d7b7c917d.png)
 
 
+
+**Considered addition functional requirements:
+1. Multiple number of players.
+2. Size of board should not be static.
+3. Variable numbers of snakes and ladder.
+7. System should decide when the game has ended.
+8. Snake and ladder should not form a loop.
+
 Automated test run with single player:
 
 ```[xxx@xxxxx game]# python3 snakeLadderGame.py 
