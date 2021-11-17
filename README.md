@@ -34,7 +34,7 @@ Design:
 
 Automated test run with single player:
 
-**[xxx@xxxxx game]# python3 snakeLadderGame.py 
+```[xxx@xxxxx game]# python3 snakeLadderGame.py 
 Enter number of players: 1
 Enter name of player no 1:ravi
 Player: ravi moving from 0 to 5 with dice value: 5
@@ -100,5 +100,5 @@ Player: ravi moving from 99 to 99 with dice value: 4
 Player: ravi moving from 99 to 99 with dice value: 3
 Player: ravi moving from 99 to 100 with dice value: 1
 Player: ravi won with rank: 1
-Game over
+Game over```
 
