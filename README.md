@@ -110,3 +110,34 @@ Player: ravi moving from 99 to 100 with dice value: 1
 Player: ravi won with rank: 1
 Game over```
 
+Run unittests:
+```XorFeat![Uploading image.png…]()
+[root@davidcl02vm027 snake-ladder]# python3 -m unittest src/tests/models/*Test.py
+.......ladder start 8 ladder end 12
+Yey, Got ladder, going up.
+.snake head 20 snake tail 12
+Snake bites me. Going down.
+..Player: Alice moving from 15 to 20 with dice value: 5
+Player: Alice won with rank: 1
+Player: Bob moving from 15 to 20 with dice value: 5
+Player: Bob won with rank: 2
+..Player: Alice moving from 0 to 5 with dice value: 5
+.Player: Alice moving from 0 to 5 with dice value: 5
+Player: Bob moving from 0 to 5 with dice value: 5
+Player: Alice moving from 5 to 10 with dice value: 5
+Player: Bob moving from 5 to 10 with dice value: 5
+Player: Alice moving from 10 to 15 with dice value: 5
+Player: Bob moving from 10 to 15 with dice value: 5
+Player: Alice moving from 15 to 20 with dice value: 5
+Player: Alice won with rank: 1
+Player: Bob moving from 15 to 20 with dice value: 5
+Player: Bob won with rank: 2
+.Player: Alice moving from 0 to 5 with dice value: 5
+..Player: Ravi moving from 95 to 100 with dice value: 5
+Player: Ravi won with rank: 1
+.
+----------------------------------------------------------------------
+Ran 17 tests in 0.002s
+
+OK
+
